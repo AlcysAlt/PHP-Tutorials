@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-$date = date('w');
+$date = date('N');
 switch ($date){
     case 1:
         echo 'Start of Work Week';
